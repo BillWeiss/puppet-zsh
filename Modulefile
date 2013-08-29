@@ -7,4 +7,3 @@ summary       'Simple zsh module'
 description   'Just a module to install zsh'
 project_page  'https://github.com/BillWeiss/puppet-zsh'
 
-dependency 'puppetlabs/stdlib'
