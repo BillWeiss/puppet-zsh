@@ -13,7 +13,6 @@ class zsh (
   # validate parameters here
 
   class { 'zsh::install': } ->
-  class { 'zsh::config': } ~>
-  class { 'zsh::service': } ->
+  class { 'zsh::config': } ->
   Class['zsh']
 }
